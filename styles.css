@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.headder{
+    background-color: rgb(4, 123, 213) ;
+}
+.head{
+    display: flex; 
+    justify-content: space-between;
+}
+.fa-bars{
+    color: white;
+    margin-top:20px;
+    margin-left: 15px;
+    font-size: 15px;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+}
+.shop{
+    height: 50px;
+    width: 60px;
+    margin-left: 15px;
+}
+.nav-item{
+    display: inline-block;
+     margin-right: 10px;
+     margin-top: 15px;
+}
+.fa-bell{
+      color: white;   
+      font-size: 12px;
+}
+.fa-shopping-cart{
+    color: white;
+    font-size: 12px;
+}
+input{
+    display:block;
+    width: 95%;
+    height: 40px;
+    padding-left:30px ;
+    margin-bottom: 10px;
+}
+.search-icon{
+    display: flex;
+    width: 100%;
+    margin-left: 10px;
+}
+.fa-search{
+    margin-left: -95%;
+    margin-top: 3.5%;
+    padding-left: 2%;
+    color: grey;
+}
+.fa-microphone{
+    margin-left: 80%;
+    margin-top: 3.5%;
+    color: skyblue;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+}
+.fashion-image{
+    width: 50px;
+    height: 50px;
+    margin: 10px 0 0 10px ;
+}
+.headding1{
+    font-size: 11px;
+    margin-left: 15px;
+}
+.headding2{
+    font-size: 11px;
+    margin-left: 10px;
+}
+.boat-image{
+    width: 100%;
+    margin-top: 10px;
+}
