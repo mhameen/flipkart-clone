@@ -48,7 +48,6 @@ input{
 .search-icon{
     display: flex;
     width: 100%;
-    margin-left: 10px;
 }
 .fa-search{
     margin-left: -95%;
@@ -67,7 +66,7 @@ input{
 }
 .fashion-image{
     width: 50px;
-    height: 50px;
+    height: 45px;
     margin: 10px 0 0 10px ;
 }
 .headding1{
@@ -81,4 +80,97 @@ input{
 .boat-image{
     width: 100%;
     margin-top: 10px;
+}
+.display1{
+    width: 100%;
+    height: 45vh;
+}
+.display2{
+    width: 100%;
+    height: 55vh;
+}
+.card1{
+    display: inline-block;
+    margin-top: 10px;
+    background-color:	rgb(245,255,250);
+    width: 100%;
+}
+.section1{
+    display: flex;
+    justify-content: space-between;
+}
+span{
+    font-size: 11px;
+    margin-left: 5px;
+}
+.but1{
+    background-color: #008CBA;
+    color: white;
+    padding: 5px;
+    margin-top: 5px;
+    border: none;
+}
+.shoes-section1{
+    border: 0.5px solid gray;
+}
+.shoes1{
+  width: 75%;
+  margin: 10%;
+}
+.discription1{
+    font-size: 0.8rem;
+    max-width: 180px;
+    padding-left: 25px;
+    text-align: center;
+}
+.section2{
+    display: flex;
+}
+.shoes2{
+    width: 100px;
+    margin: 10px;
+}
+.discription2{
+    font-size: 11px;
+    margin-left: 10px;
+}
+.shoes-section2{
+    border: 0.5px solid gray;
+}
+.discription3{
+    margin-left: 10%;
+    text-align: center;
+    font-size: 0.9rem;
+}
+.laptop{
+    display: inline-block;
+    width: 75%;
+    margin: 10%;
+}
+.laptop-image{
+    border: 1px solid gray;
+}
+.card2{
+    display: inline-block;
+    margin-top: 15px;
+    background-color:	rgb(221, 230, 225);
+    width: 100%;
+}
+.speakers{
+    width: 100px;
+    margin-left: 35%;
+}
+.pop{
+    width: 100px;
+    margin-left: 30%;
+}
+.brokage{
+    margin-top: 20px;
+    width: 100%;
+    height: 40vh;
+}
+.discount{
+    margin-top: 20px;
+    width: 100%;
+    height: 35vh;
 }
