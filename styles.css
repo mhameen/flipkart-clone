@@ -130,6 +130,10 @@ span{
     width: 100px;
     margin: 10px;
 }
+.shoes3{
+    width: 100px;
+    margin: 10px;
+}
 .discription2{
     font-size: 11px;
     margin-left: 10px;
@@ -139,30 +143,36 @@ span{
 }
 .discription3{
     margin-left: 10%;
-    text-align: center;
     font-size: 0.9rem;
 }
 .laptop{
     display: inline-block;
-    width: 75%;
+    width: 70%;
     margin: 10%;
 }
-.laptop-image{
-    border: 1px solid gray;
+.discription5{
+    font-size: 0.8rem;
+    padding-left: 5%;
+    text-align: center;
 }
+
 .card2{
     display: inline-block;
     margin-top: 15px;
     background-color:	rgb(221, 230, 225);
     width: 100%;
 }
+.mobile{
+    margin: 10px;
+}
+.discription4{
+    margin-left: 10%;
+    
+    font-size: 0.9rem;
+}
 .speakers{
     width: 100px;
-    margin-left: 35%;
-}
-.pop{
-    width: 100px;
-    margin-left: 30%;
+    margin:10px;
 }
 .brokage{
     margin-top: 20px;
@@ -173,4 +183,69 @@ span{
     margin-top: 20px;
     width: 100%;
     height: 35vh;
+}
+.section-shoes{
+    display: none;
+}
+.mouse-section{
+    display: none;
+}
+.another-section{
+   display: flex;
+   }
+
+@media screen and (min-width: 1024px) {
+       .section2{
+           justify-content: space-between;
+       }
+       .another-section{
+        justify-content: space-between; 
+       }
+      .shoes-section2{
+          display: flex;
+          justify-content: space-between;
+      }
+      .shoes1{
+          width: 50%;
+          margin: 10px;
+      }
+      .shoes2{
+          width: 50%;
+          margin: 10px;
+      }
+      .shoes3{
+        width: 50%;
+        height: 15vh;
+        margin: 10px;
+    }
+    .section-shoes{
+        display: inline-block;
+    }
+      .shoes4{
+        width: 50%;
+    
+        margin: 10px;
+    }
+      .shoes-section2{
+        border:none;
+    }
+    .shoes-section1{
+        border:none;
+    }
+    .main{
+        display: flex;
+        justify-content: space-between;
+    }
+    .speakres-image{
+        display: flex;
+        justify-content: space-between;
+    }
+    .speakers{
+        width: 50%;
+    }
+    .mouse{
+        display: inline-block;
+        width: 50%;
+    }
+  
 }
